@@ -9,7 +9,7 @@ public class Main {
 		Calcular c = new Calcular();
 		System.out.println("Ingrese la operación");
 		String operar = sc.next();
-		System.out.println(c.operacion(operar));
+		System.out.println("El resultado es: " + c.operacion(operar));
 		sc.close();
 	}
 }
