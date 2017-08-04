@@ -26,7 +26,6 @@ public class Calcular extends Operaciones {
 				i++;
 			}
 		}
-		System.out.println("El resultado es: " + total);
 		return total;
 	}
 }
